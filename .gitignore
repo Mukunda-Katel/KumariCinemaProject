@@ -1,0 +1,13 @@
+.vs
+.bin
+.obj
+bin/
+obj/
+.vs/
+*.user
+*.suo
+# Rider / VS Code
+.idea/
+.vscode/
+# WebView2 runtime data (extra safety)
+*.WebView2/
