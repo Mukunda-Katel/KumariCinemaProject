@@ -123,6 +123,7 @@
     <Content Include="Global.asax" />
     <Content Include="halldetails.aspx" />
     <Content Include="moviedetails.aspx" />
+    <Content Include="MovieOccupancyPerformer.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -230,6 +231,13 @@
     </Compile>
     <Compile Include="moviedetails.aspx.designer.cs">
       <DependentUpon>moviedetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MovieOccupancyPerformer.aspx.cs">
+      <DependentUpon>MovieOccupancyPerformer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MovieOccupancyPerformer.aspx.designer.cs">
+      <DependentUpon>MovieOccupancyPerformer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="showdetails.aspx.cs">
